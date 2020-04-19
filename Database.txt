@@ -1,0 +1,68 @@
+
+
+*******DATABASE***********
+
+create database `qb`
+
+
+
+
+*******ADMIN***********
+
+create table `qb`.admin
+(
+	id INT not null primary key AUTO_INCREMENT,
+	username VARCHAR(100),
+	password VARCHAR(100),
+	sq VARCHAR(500),
+	sa VARCHAR(500)
+)
+
+
+
+
+
+*******CASHIER***********
+
+create table `qb`.cash
+(
+	id INT not null primary key AUTO_INCREMENT,
+	name VARCHAR(100),
+	password VARCHAR(50),
+	pdate DATE
+)
+
+
+
+
+
+
+
+
+*******RETAIL STOCKS***********
+
+
+create table `qb`.stock
+(
+	id INT not null primary key AUTO_INCREMENT,
+	barcode VARCHAR(50),
+	pname VARCHAR(300),
+	available INT,
+	mrp INT,
+	retailpack INT,
+    whole INT,
+	expdate  date,
+	expdate2 date,
+	expdate3 date,
+	pack 	INT,
+	discount INT,
+	gravity VARCHAR(50)
+)
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+Requirements
+
+jdk-7u60-windows-x64.jar
+jre-7u79-windows-i586.jar
+jre-7u79-windows-x64.jar
+mysql-installer-community-5.6.12.0 or Higher
+netbeans 8.0 or higher
+
+
+INSTALLATION PROCEEDURE
+
+1.Install MySQL WorkBench 5.6 or higher
+
+2.Follow the Installation process
+
+3.For Setup Type Choose "Developer Default"
+
+4.MySQL will check your pc requirements and ask you to install some libraries or software if your pc does not have the complete requirements
+
+5.if you have difficulties in bypassing the requirements select "Custom" and click next
+
+6.Now click the + sign besides "Application", then Untick "MySQL For Excel 1.1.1" and click next and wait for the installation process to complete 
+
+7.For MYSQL Server Configuration 
+Config Type = Development Machine
+Port Number = 3306
+MySQL Root Password= password 
+8.Proceed with Next and complete the installation.
+
+9. Launch MySQL WorkBench, it will prompt you to enter password "password"
+then create a database "qb" and execute the queries in the database script one after the other.
+
+
+10. Launch Netbeans IDE and open the extracted folder you've downloaded.
+
+
+10. That's all... if you have any difficulties kindly reach out to us via at www.facebook.com/hunritek
